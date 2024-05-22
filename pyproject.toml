@@ -1,0 +1,15 @@
+[project]
+name = "comfy_clip_blip_node"
+description = "CLIPTextEncodeBLIP: This custom node provides a CLIP Encoder that is capable of receiving images as input."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["timm==0.4.12", "transformers==4.15.0", "fairscale==0.4.4", "pycocoevalcap"]
+
+[project.urls]
+Repository = "https://github.com/paulo-coronado/comfy_clip_blip_node"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfy_clip_blip_node"
+Icon = ""
